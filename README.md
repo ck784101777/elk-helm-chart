@@ -1,7 +1,7 @@
 # elk-helm-chart
 elk-helm-chart
-
-tree elk-helm-chart/
+```shell
+tree elk-helm-chart/ 
 elk-helm-chart/
 ├── Chart.yaml
 ├── filebeat.yaml
