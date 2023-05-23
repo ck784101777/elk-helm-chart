@@ -12,3 +12,6 @@ elk-helm-chart/
 │   ├── logging-app-and-filebeat.yaml
 │   └── logstash.yaml
 └── values.yaml
+
+run: 
+helm install elk-auto/ --set global.hostIp=$(Node ip)
